@@ -1,0 +1,16 @@
+Package: gwas.pipeline
+Type: Package
+Title: Pipeline for GWAS
+Version: 0.3
+Date: 2015-08-10
+Author: Zhong Wang
+Maintainer: Zhong Wang <wzhy2000@hotmail.com>
+Description: Pipeline for GWAS
+License: GPL (>= 2)
+Depends: R (>= 2.10.0)
+Imports: stringr, snpStats, sqldf, tools
+Suggests: snowfall
+Packaged: 2015-07-30 02:23:25 UTC; 
+NeedsCompilation: yes
+Repository: CRAN
+Date/Publication: 2015-07-30 07:21:49

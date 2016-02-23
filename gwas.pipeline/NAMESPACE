@@ -1,0 +1,19 @@
+#useDynLib(gwas.pipeline, .registration = TRUE)
+
+import(stringr)
+import(snpStats)
+import(sqldf)
+import(tools)
+
+# functions
+export(new.proj)
+export(do.plink.qc1)
+export(do.post.qc1)
+export(do.plink.qc2)
+export(do.post.qc2)
+export(do.SKAT)
+export(do.LSKAT)
+export(do.blasso)
+export(do.glasso)
+export(do.plink.gwas)
+export(do.gencode)
